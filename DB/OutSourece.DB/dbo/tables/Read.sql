@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Read]
+(
+	[CaseId] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[Id] NVARCHAR(64) NOT NULL,
+	[ViewTime] NVARCHAR(256) NULL,
+	[Interest] NVARCHAR(256) NULL,
+	
+)

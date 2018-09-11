@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Certificate]
+(
+	[CerId] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[CerName] NVARCHAR(64) NOT NULL,
+	[CerAnnex] NVARCHAR(256) NULL,
+	[CerField] NVARCHAR(256) NULL,
+	[Id] NVARCHAR(64) NOT NULL,
+	
+)

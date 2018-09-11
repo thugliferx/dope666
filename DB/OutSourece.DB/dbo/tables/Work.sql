@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Work]
+(
+    [WorkId] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[WorkName] NVARCHAR(64) NOT NULL,
+	[WorkAnnex] NVARCHAR(256) NULL,
+	[WorkDescrip] NVARCHAR(256) NULL,
+	[Id] NVARCHAR(64) NOT NULL,
+)
