@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Reg";
+}
+
+<h2>Login</h2>
+<h3>@ViewBag.Message</h3>
+
+<address>
+    <form>
+
+        
+        <h1>請輸入使用者資料</h1>
+        <div>
+            <span style="color:red">@ViewBag.Msg</span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">帳號</label>
+            <input type="text" class="form-control" id="Account" name="account" placeholder="輸入帳號" value="">
+            <small id="emailHelp" class="form-text text-muted">請輸入英數字</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">新的密碼</label>
+            <input type="password" class="form-control" id="Password1" name="password1" placeholder="輸入密碼" value="">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">再次確認</label>
+            <input type="password" class="form-control" id="Password2" name="password2" placeholder="輸入密碼" value="">
+        </div>
+        電話：<input type="text" name="欄位名稱"></br></br>
+        信箱：<input type="text" name="欄位名稱"></br></br>
+        生日：<select id="date-sel-year" rel="2015"></select>年
+        <select id="date-sel-month" rel="9"></select>月
+        <select id="date-sel-day" rel="10"></select>日</br></br>
+        住址：<input type="text" name="欄位名稱">
+
+        <button type="button">Click Me!</button>
+
+    </form>
+</address>

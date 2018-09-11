@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace 畢業專題練習
+namespace WebApplication1
 {
     public class FilterConfig
     {
