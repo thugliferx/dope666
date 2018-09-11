@@ -62,5 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\tables\Users.sql" />
+    <Build Include="dbo\tables\Case.sql" />
+    <Build Include="dbo\tables\Creater.sql" />
+    <Build Include="dbo\tables\Receiver.sql" />
+    <Build Include="dbo\tables\Recmd.sql" />
+    <Build Include="dbo\tables\Certificate.sql" />
+    <Build Include="dbo\tables\Work.sql" />
+    <Build Include="dbo\tables\Read.sql" />
+    <Build Include="dbo\tables\Apply.sql" />
+    <Build Include="dbo\tables\Authenticate.sql" />
   </ItemGroup>
 </Project>

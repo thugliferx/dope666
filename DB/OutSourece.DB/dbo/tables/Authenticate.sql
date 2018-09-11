@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Authenticate]
+(
+	[AuthId] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[AuthName] NVARCHAR(64) NOT NULL,
+	[AuthAnnex] NVARCHAR(256) NULL,
+	[AuthField] NVARCHAR(256) NULL,
+	[Id] NVARCHAR(64) NOT NULL,
+)

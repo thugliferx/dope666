@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Receiver]
+(
+	
+	[Id] BIGINT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+	[CaseId] NVARCHAR(64) NOT NULL,
+	[Evaluate] NVARCHAR(256) NULL,
+)
